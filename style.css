@@ -97,7 +97,7 @@
     }
     
     .iniciar-sesion {
-        padding: 10px 15px;
+        padding: 10px 20px;
         font-size: 14px;
         color: #f0f0f0;
         background-color: #125cb7;
@@ -389,7 +389,7 @@
         width: 908px;
         font-size: 10px;
         height: 35px;
-        padding: 0.1px;
+        padding: 0px;
         position: relative;
         top: 15px;
         left: 180px;
@@ -466,6 +466,166 @@
     .boton-tarjeta:hover {
         color: #fec851;
         background-color: #0f50a0;
+    }
+
+
+    /*Eventos de la derecha*/
+
+    .container-eventos {
+        width: 90%;
+        max-width: 235px;
+        margin: 10px auto;
+        padding: 10px;
+        background: white;
+        position: relative;
+        left: 460px;
+        bottom: 270px;
+    }
+    
+    h2 {
+        margin-bottom: 16px;
+        font-size: 14px;
+        color:#003366;
+        font-weight: bold;
+    }
+    
+    .event {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .event h3 {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .event img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .but-eventos {
+        background-color: #0073e6;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin-top: auto;
+        cursor: pointer;
+        font-size: 14px;
+        width: 100%;
+        box-sizing: border-box;
+        transition: all 0.2s ease;
+        font-weight: bold;
+    }
+    
+    .but-eventos:hover {
+        color: #fec851;
+        background-color: #0f50a0;
+    }
+
+    /*Pie de página*/
+
+    .footer {
+        background-color: #212529;
+        color: #fff;
+        padding: 20px 0;
+        font-size: 14px;
+        position:relative;
+        top: 520px;
+    }
+    
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .footer-links {
+        display: flex;
+        gap: 20px;
+        flex: 1;
+    }
+    
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-links ul li {
+        margin-bottom: 8px;
+    }
+    
+    .footer-links ul li a {
+        color: #ccc;
+        text-decoration: none;
+    }
+    
+    .footer-links ul li a:hover {
+        color: #fec851;
+    }
+    
+    .footer-contact {
+
+        flex: 1;
+    }
+    
+    .footer-contact .whatsapp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    
+    .footer-contact .whatsapp img {
+        height: 70px;
+    }
+    
+    .footer-contact .social-media {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .footer-contact .social-media a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    .footer-contact .social-media a:hover {
+        color: #fec851;
+    }
+    
+    .footer-bottom {
+        background-color: #343a40;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    
+    .footer-bottom a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    .footer-bottom a:hover {
+        color: #fff;
+    }
+
+    .redes-imagen {
+        height: 30px;
+        position: relative;
+        bottom: 5px;
+        cursor: pointer;
     }
     
 
